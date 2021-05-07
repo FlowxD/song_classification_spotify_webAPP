@@ -11,7 +11,7 @@ import spotipy.oauth2 as oauth2
 import pickle
 
 
-model2 = pickle.load(open('spotify_model.pkl', 'rb'))
+model2 = pickle.load(open('spotify_model2.pkl', 'rb'))
 
 
 client_credentials_manager = oauth2.SpotifyClientCredentials(client_id='5e22c02862e0444aac0351ee2aca9exx', client_secret='dd2407b5b3984fa38bf707b883e34bxx')
@@ -36,6 +36,10 @@ if x == 1:
     st.text('Lofi')
 elif x == 2:
     st.text('Dance')
+elif x == 4:
+    st.text('Jazz')
+elif x == 5:
+    st.text('Hiphop')
 else:
     st.text('Rock')
 
