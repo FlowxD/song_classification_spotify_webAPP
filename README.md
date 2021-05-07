@@ -1,6 +1,6 @@
 # song_classification_spotify_webAPP
-https://spotify-classification.herokuapp.com/
-
+3 type = https://spotify-classification.herokuapp.com/
+5 types = https://spotify-preddd.herokuapp.com/
 
 
 Song Example IDs
